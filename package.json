@@ -1,0 +1,40 @@
+{
+  "name": "shadow-web-scraper",
+  "version": "1.0.0",
+  "description": "Premium Telegram Bot - Shadow Web Scraper with offline scraping & bot cloning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node index.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "web-scraper",
+    "shadow-scraper",
+    "premium-bot"
+  ],
+  "author": "Shadow Developer",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "archiver": "^6.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^2.7.0",
+    "mime-types": "^2.1.35",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "axios": "^1.6.5",
+    "user-agents": "^1.1.294"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
